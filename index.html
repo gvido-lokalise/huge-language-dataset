@@ -1,0 +1,348 @@
+
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" id="html" >	<head>		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> 		<meta name="viewport" content="width=device-width">		<title>Hungry Obfus Curr | Short Story Generator</title>			<meta property="og:title" content="Hungry Obfus Curr | Short Story Generator" />		<meta property="og:site_name" content="Plot Generator"/>		<meta property="og:type" content="website"/>		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>		<style>body {	font-family: 'Raleway', Helvetica, sans-serif;	font-size: 16pt;	line-height: 18pt;	margin: 0 0 0 0;	padding: 0 0 0 0;	background: #e6e9ed;	text-align:center;	height: 100%;	}.page {  display: flex;  flex-direction: column;  height: 100%;}.page-content {  flex: 1 1 auto;  position: relative;  }h1 {	padding: 0px;	margin: 1px;	font-size:16pt;	line-height:18pt;	color:#000000;	text-align:center;}h1#retro, h2#retro {	color:#000000;	font-size: 40pt !important; 	line-height:46pt;	font-family:'McLaren', Verdana, sans-serif;;	letter-spacing: 10px;	font-weight:normal !important;}.profile_page h1#retro, .profile_page h2#retro {	font-size: 34pt !important;	line-height:40pt;}h2#retro-small  {	color:#000000;	font-size: 22pt;	line-height:25pt;	font-family: 'McLaren', Verdana, sans-serif;;	letter-spacing: 10px;}h2 {	padding: 0px;	margin: 0px; 	font-weight:normal;	color:#00605d; }h3 {	margin: 10px auto 6px auto;	color:#534258;}h4 {	padding: 0px;	margin: 0px; }#outer {	width:100%;	padding: 0;	margin: 0 auto;	}#main {	margin:0;	padding:0px;}#menu-main {	margin:0 20px;	padding:0px 20px;}#titleImg {	width:100%;	max-width:500px;	margin:auto;	display: block;}#tagLine {	margin:0;	padding:0 10px 6px 0;	font-size:16pt;	line-height:18pt;}.skyscraper {	height:600px;	width:160px;	margin-top:20px;	margin-bottom:20px;} .adwrap {	min-height:310px;}.adwrap_middle {	height:auto;	padding:30px 0 30px 0;	min-height:90px;}#right {	text-align:center;	width: 190px;	padding:6px 0 0 0;	margin:0 3px 0px 10px;	float:right;}#left {	text-align:center;	width: 160px;	padding:6px 0 0 0;	float:left;	margin:0 10px 0px 0px;}#contents {	display:inline;}#menu {}#menu h2 {	display:inline-block;	padding:0 0px 0 0;	font-size:14pt; 	line-height:16pt;	text-align:center;	margin:10px;	width:140px;	position:relative;	background:#fefefe;	border-radius:2px;	min-height:141px;	box-shadow: 0px 0px 2px #cccccc;}#menu h2 IMG {	border:none;	width:140px;	border-radius:2px;}#menu h2 span {	height:46px;	position:absolute;	bottom:4px;	left:4px;	right:4px;	display: flex;    justify-content: center;    align-items: center;}#menu h2 a {	text-decoration:none;	color:#000000;}#menu a:hover {	background:#ffffff;	color: #1c7a6d;}a {	text-decoration:none;	color:#00605d;}a:visited {	color:#834278;}a:hover {	color:#2AC5D6;	font-weight:inherit;}hr {	border: 0;  width: 60%;	color: #000080;	background-color: #000080;	height: 1px;}.homepage_intro {	margin:10px 6px 0 6px;}.article {	text-align:left;	background:#ffffff;	padding:6px;	max-width:800px;	margin:auto;}.message {	border:1pt solid #666666;	margin:10px auto;	width:90%;	max-width:300px;	background:#ffffff;	padding:10px;}.message_wide {	border:1pt solid #666666;	margin:10px auto;	width:90%;	max-width:500px;	background:#ffffff;	padding:10px;}.main_signup_form {		margin:10px auto 20px auto;	max-width:90%;	width:640px;	background:#ffffff;	padding:2px 6px 6px 6px;	font-size:14pt;line-height:16pt;	border-radius:10px;	text-align:center;}.main_signup_form input[type=submit] {	font-size:16pt;line-height:18pt;	padding: 2px 6px;}.suggest_form {	border:1pt solid #666666;	margin:6px auto;	max-width:90%;	width:300px;	background:#ffffff;	padding:6px;	font-size:10pt;line-height:11pt;	clear:both;}.suggest_form h4 {	padding:0;	margin:0;}.suggest_form input[type=submit]{	font-size:14pt;line-height:16pt;}.inner {	padding:10px;}.desc {	font-size:14pt;line-height:16pt;	font-weight:bold;	padding:4px;}#lower_buttons {	display:block;}#options {	float:right; 	background:#ffffff; 	width:300px; 	padding:0px; 	margin: 0 0 0 10px; 	max-width:90%; 	font-size:10pt; 	line-height:11pt;	text-align:center;}#options_mobile {	display:none;	background:#ffffff; 	width:300px; 	padding:0px; 	max-width:90%; 	font-size:10pt;	line-height:11pt;   	text-align:center;	float:none; 	margin: 4px auto; }.social_toolbar {	margin:2px 0 10px 0;	height:auto;	text-align:center;}.social_toolbar div {	font-size:10pt;line-height:11pt;	width:76px;	height:19px;	text-decoration:none;	padding:4px 3px 2px 3px;	color:#ffffff;	display:inline-block;	margin:2px 2px;	border-radius:2pt;	cursor:pointer;}.social_toolbar div img {	float:left;	height:16px;	margin:0 0 0 2px;}.social_toolbar .fa {   text-align: center;  text-decoration: none;  float:left;	margin:1px 0 0 4px;	display:inline;	color:#ffffff;}#follow_bar .fa {   text-align: center;  text-decoration: none;	color:#ffffff;	font-size:24px;line-height:28pt;}#suggestions {	margin: 6px auto;	text-align:center;	border-radius:4px;	background:#ffffff;	padding:6px;	max-width:560px;	display:inline-block;	border-top:#2AC5D6 solid 3pt;}#suggestions_wide {	margin: 6px auto;	text-align:center;	border-radius:4px;	background:#ffffff;	padding:6px;	display:inline-block;	border-top:#2AC5D6 solid 3pt;}#suggestions div, #suggestions_wide div {	display:inline-block;	padding:6px;	margin:2px;	max-width:160px;	vertical-align: top; }#suggestions div p, #suggestions_wide div p {	height:66px;	margin-top:0px;	font-size:0.9em;}#suggestions div img, #suggestions_wide div img {	max-width:140px;}#suggestions_right {	margin: 0px auto;	text-align:center;	padding:10px 0;	display:none;}#suggestions_right h3 {	font-size:12pt;line-height:13pt;}#suggestions_right div {	border-radius:4px;	display:inline-block;	padding:0px;	margin:0px;	max-width:140px;	vertical-align: top;	background:#ffffff; }#suggestions_right div p {	margin:0px;	font-size:0.9em;}#suggestions_right div img {  width:140px;}.fa:hover {    opacity: 0.7;}.twitter_button {	background:#1c9ceb;}.facebook_button {	background:#034896;}.pinterest_button {	background:#ca0610;}.reddit_button {	background:#ff4500;}.plus_button {	background:#c53419;}.tumblr_button {	background:#33465d;}.email_button {	background:#4B0082;}.collect {		max-width:380px;	padding:6px;	margin: 12px auto;	text-align:center;		background:#dedede;}.collect_small {	font-size:9pt;line-height:10pt;	padding:1px;	margin:0;}.sn_icons {	width:300px;	margin: 12px auto 0px auto;	text-align:center;	border:none;	height:90px;	display:inline-block;}.other_icon{	float:left;	width:100px;	padding:10px 0px;	text-align:center;}.facebook_icon{	float:left;	width:100px;	padding:10px 0px;}.shareHead {		text-align:center;		padding:2px;		margin:0;		font-weight:bold;	}.fb-share {	width:300px;	border: 1pt #4864b4 solid;	margin:10px auto;	text-align:center;	position:relative;}.create_form_submit {	min-height:60px;	width:auto;	font-size: 20pt !important;	line-height:22pt;	white-space:normal;}#new {	font-size:30pt;	padding:2px 10px;}#like_this {	font-size:16pt;	white-space:normal;	margin:10px auto;	padding:2px 10px;}.card_game_image_display_page {	width:600px;	margin:auto;	max-width:90%;}.card_game_image_medium {	display:block;	max-width:500px;}.card_game_image_small {	display:none;	width:300px;	margin:auto;	max-width:90%;}#custom-side-ad-right {	width:160px;	height:600px;	display:none !important;}.responsive-right {	width:160px;	height:600px;	display:none !important;	margin-top:10px;	position: relative;	z-index:10 !important;}.responsive-right-2 {	width:160px;	height:600px;	display:none !important;	position: relative;	z-index:10 !important;}#right_menu {	display:none !important;}.responsive-left {	width:160px;	height:600px;	display:none !important;	margin-top:10px;	position: relative;	z-index:10 !important;}.left_list {	display:none;	font-size:10pt;	text-align:left;	padding:0px 2px;	margin:0 0 20px 0;	list-style-type: none;}.left_list li {	padding: 2px 0;}#right h4, #left h4 {	padding:10px 0 0 0;	margin:0;	display:none;}.responsive-leader-top {	width:728px;	height:90px;	margin:10px auto auto auto;	display:none !important;	position: relative;	z-index:10 !important;}.responsive-leader-middle {	width:728px;	height:90px;	margin:10px auto auto auto;	display:none !important;	position: relative;	z-index:10 !important;}.responsive-leader {	max-width:728px;	height:90px;	margin:auto;	display:none !important;	position: relative;	z-index:10 !important;}.responsive-mobile-banner-top-parent {	display:none !important;	margin:0px auto 10px auto;	position: relative;	z-index:10 !important;}.responsive-mobile-banner-top {	width:300px;	height:50px !important;	max-height:50px !important;	margin:10px auto auto auto;	display:none !important;	position: relative;	z-index:10 !important;}.responsive-mobile-banner {	width:300px;	height:50px;	margin:auto;	display:none !important;	position: relative;	z-index:10 !important;}.responsive-mobile-big-1 {	width:300px;	height:260px;	float:left;	display:none !important;	padding:0;	overflow:hidden;	margin:10px auto;	position: relative;	z-index:10 !important;}.responsive-mobile-big-2 {	width:300px;	height:250px;	float:left;	display:none !important;	margin:10px auto;	position: relative;	z-index:10 !important;}.responsive-handheld-lower {	width:300px;	height:280px;	display:none !important;	margin:10px auto;	text-align:center;	position: relative;	z-index:10 !important;}.local-banner {	display:none;}#follow_bar {	width: 100%;	padding:10px 0;}#follow_bar div {	font-size:16pt;	width:36px;	height:32px;	text-align:center;	text-decoration:none;	padding:8px 3px 2px 3px;	color:#ffffff;	display:inline-block;	margin:2px 2px;	border-radius:2pt;}.disclaimer {	padding: 0 0 100px 0;	margin: 0;	background-color: #000000;	color: #ffffff;	font-size: 12pt;	width: 100%;}.choices {	margin:4px auto;}#lower_desc {	margin:0 10px;}#lower {	display:none;}.lower_link {	font-size:12pt;	font-weight:normal;}.lower_link a {	text-decoration:none;}.how_to {	list-style-type: none;	padding: 2px;}input.button, button {	background-color:#00605d;	font-size: 15pt;	border:none;	color:#ffffff;	padding: 3px 8px;	margin: 0 0 0 2px;	-moz-border-radius:28px;	-webkit-border-radius:28px;	border-radius:28px;	-webkit-appearance: none;	font-family:'Assistant', Helvetica, sans-serif; cursor: pointer;}input.button:hover {	background-color:#2AC5D6;	border:none;} input.button:disabled {	background-color:#cdcdcd;	border:none;}input[type=text]{	margin:4px 0;	font-size:18pt;	font-family:Assistant, Verdana, sans-serif;	padding:1px 4px;	border:1pt solid #cccccc;	-webkit-appearance: none;}select{	margin:4px 0;	font-size:18pt;	background:#ffffff;	font-family:Assistant, Verdana, sans-serif;	max-width:96%;	border:1pt solid #cccccc;}textarea{	margin:4px 0;	font-size:18pt;	font-family:Assistant, Verdana, sans-serif;	padding:1px 4px;}.contest textarea {	width:90%;	height:100px;}.sizeTiny {	width:80px;}.sizeSmall{	width:120px;}.sizeMedium{	width:180px;}.sizeLarge{	width:260px;	max-width:96%;}input[type=submit]{	-webkit-appearance: none;	color:#ffffff;	background-color:#00605d;	font-size: 20pt;	padding: 1px 10px;	margin: 0 0 0 0;	border:none;	-moz-border-radius:28px;	-webkit-border-radius:28px;	border-radius:28px;	font-family:Assistant, Helvetica, sans-serif; cursor: pointer;}input[type=submit]:hover{	background-color:#2AC5D6;}#save {	font-size:12pt;	width:90px;}#publish {	font-size:32pt;	width:150px;	margin: 2px 20px 6px 2px;}#discard {	font-size:18pt;	background-color:#c12f46;	width:90px;}			#report {				font-size:16pt;				background-color:#c12f46;				padding: 1px 10px;			}.up_down {	font-size:30pt;	border:none;}.up_down_form {	display:inline-block;}.down {	color:#c12f46;}.up {	color:#43972f;}.up_down_data {	margin:6px auto;}#reactions {	margin:10px auto 20px auto;	max-width:400px;}#outer_not_found {		max-width:400px;		padding: 0;		margin: 10px auto;		background-color: #fefefe;		text-align:center;	}#main_not_found {		margin:0;		padding:10px;		float:left;		max-width:380px;		background-color: #fefefe;	}.perm {	font-size:10pt;	margin: 1px 0 10px 0;	text-align:center;}.perm a{	text-decoration:none;}#powered_by {	width:90%;	font-size:11pt;	max-width:200px;	margin:10px auto;	border-top: 1pt solid #000000;	border-bottom: 1pt solid #000000;	padding:1px 3px;	text-align:left;	clear:both;}#powered_by h4 {	margin:0;	padding:0;	line-height:1em;}#powered_by img {	float:right;	padding:2px 2px 2px 10px;	height:26px;}.custom_ads_label {	color:#000000;	padding-top:14px;	padding-bottom:0px;	font-size:9pt;}.custom_sidebar_ad_box {	max-width:140px;	padding:8px 0;	margin:6px auto;	color:#333333;	background:#ffffff;	border-radius:4px;	font-size:9pt;}.custom_sidebar_ad_box a {	text-decoration:none;}.custom_sidebar_ad_box h4 {	padding:6px 1px 1px 1px;	margin:0;	font-weight:normal;	font-size:11pt;}.custom_sidebar_ad_box h4 a {	color:#366ac9;}.custom_sidebar_ad_box p {	padding:2px 1px 7px 1px;	margin:0;}.custom_sidebar_ad_box IMG {	max-width:90%;	padding:2px;	border:none;	border-radius:4px;;}.also_thumb_container {	display:inline-block;	padding:0 0px 0 0;	font-size:11pt; 	text-align:center;	margin:10px;	width:100px;	position:relative;	background:#ffffff;	border-radius:4px;	min-height:111px;}.also_thumb_container IMG {	border:none;	width:100px;	height:63px;	border-radius:2px;}.also_thumb_container div {	height:40px;	position:absolute;	bottom:5px;	left:5px;	right:5px;	display: flex;  justify-content: center;  align-items: center;}.also_thumb_container a {	text-decoration:none;}.create_iAssistanto {	margin:10px auto;}.create_intro {	margin:10px auto;}.right_side_other_generators {	width:160px; 	height:40px; 	text-align:center; 	overflow:hidden; 	background:#ffffff; 	margin:2px auto; 	border-top-left-radius:10px;}.right_side_other_generators span{	vertical-align:middle;	line-height: 36px;}.snippet {	max-width:800px; 	text-align:left; 	margin:auto;	padding:6px 6px;}.about_aardgo {	max-width:800px; 	text-align:left; 	margin:auto;	padding:6px 6px;	font-size:12pt;}.spam_check {	display:none;}#comments {	width:96%;	max-width: 600px;	margin:auto;	text-align:left;}#comments input[type=submit] {	font-size:16pt;}#comments h4 {	border-bottom:1pt solid #cccccc;	margin:4px 0;}#comments textarea {	width:90%;}#comments input[type=text] {	max-width:400px;}#comments .comment_date {	font-size: 10pt;	color:#666666;	font-style:italic;}#comments p {	margin:4px 0;	padding:0px 0;}#comment {	margin: 0px auto;	padding:4px 0 14px 0;}.comment {	margin: 10px auto;	padding:4px 0;}.top_note {	text-align:left;	font-size:12pt;	margin-top:20px;	margin-bottom:6px;}.not_saved {	background:turquoise;	padding:0px 6px;}.family_warning {	margin:6px auto;	text-align:center;	font-size:12pt;	padding:6px 0;}#search_outer {	background-color:#ffffff;	margin:auto;	width:1000px;	max-width:98%;	text-align:left;	font-size:0.9em;}#search_outer h3 {	font-size:14pt;	padding:0px 0 0 0;	margin:0;}#search_outer .url {	font-size:10pt;}#search_outer form {	margin:auto;	display:inline-block;}.search_result {	padding:6px;	margin:6px auto 8px auto;	min-height:100px;}#search_outer .thumb {	float:left;	margin: 4px 10px 0 0;	width:140px;	height:88px;}#search_outer .info {	font-size: 12pt;	font-weight:normal;}#search_outer .no_results {	text-align:center;	font-weight:bold;	margin:20px auto;	font-size:1.5em;}#search_outer .mean {	margin:10px auto;}#header {	width:100%;	background:#534258;	height:38px; 	margin:0 0 2px 0;	position:relative;}#header .brand {	float:left; 	color:#ffffff;	font-size:14pt;}#header .logo {	padding:0px 0 0 3px;}#header .icon {	color:#2AC5D6;	padding:0px 5px;}#header .brand_text {	position:relative; 	top:-8px; 	letter-spacing:2px;  	font-family: 'Raleway', Verdana, sans-serif; }#search_form {	margin:auto;	padding:0;	font-size:11pt;	position:absolute;	right:10px;}#search_form input[type=text]  {	font-size:11pt;	height:18pt; width:180px;	-webkit-appearance: none;}#search_form button {	font-size:11pt;	height:20pt; width:40px;	background-color:#2AC5D6;}.fa-search:before {  content: "Go";} #review_form {	padding:0;	margin:0;}#review_form textarea {	width:90%;	max-width:500px;	height:200px;}#review_form .star { 	font-size:20pt;}#review_form .small {	font-size:12pt;}#loading_overlay {	display:none;	font-size:12pt;	box-shadow: 0px 0px 15px #364275;	margin: auto;	max-width:300px;	max-height:230px;	background-color: #fff;	color: #000;	text-align:center;	z-index:5;	width:90%;	height:50%;	padding:20px;	border-radius:20px;}.loader {    border: 16px solid #f3f3f3;     border-top: 16px solid #3498db;     border-radius: 50%;    width: 120px;    height: 120px;    animation: spin 2s linear infinite;    margin:auto;}@keyframes spin {    0% { transform: rotate(0deg); }    100% { transform: rotate(360deg); }}.qc-cmp-persistent-link {display:none !important;}@media (min-width:1095px) {	#outer {		max-width:1724px;	}	.create_page, .display_page {		max-width:1424px !important;	}	#main {		max-width:900px;		margin:auto;	}	.responsive-right {		display:block !important;	}	#suggestions_right {		display:block;	}	#right_menu {		display:block !important;	}	.responsive-left {		width:160px;		height:600px;		display:block !important;	}	.left_list {		display:block;	}	#left h4, #right h4 {		display:block;	}	.responsive-leader-top {		display:block !important;		width:728px;	}	.responsive-leader-middle {		display:block !important;	}}@media (max-width:1250px){	h1#retro, h2#retro  {		font-size: 25pt !important; 		letter-spacing: 8px; 	}	.profile_page h1#retro, .profile_page h2#retro {		font-size: 24pt !important;	}}@media (min-width:970px) and (max-width:1095px)  {	#outer {		max-width:1024px;	}	#main {		margin: 0 160px 0 160px;	}	.responsive-right {		display:block !important;	}	#suggestions_right {		display:block;	}	#right_menu {		display:block !important;	}	.responsive-left {		width:160px;		height:600px;		display:block !important;	}	.left_list {		display:block;	}	#left h4, #right h4 {		display:block;	}	.responsive-leader-top {		display:block !important;		width:600px !important;	}	.responsive-leader-middle {		display:block !important;		width:600px !important; 	}}@media (min-width:760px) and (max-width:969px){	body {		font-size:14pt;	}	#main {		margin: 0 190px 0 190px;	}	#custom-side-ad-right {		display:inline-block !important;	}	.responsive-right {		display:block !important;	}	#suggestions_right {		display:block;	}	.responsive-right-2 {		display:block !important;	}		.responsive-leader-top {		display:inline-block !important;		width:600px !important; 	}	.responsive-leader {		display:block !important;		width:600px !important; 	}	.responsive-leader-middle {		display:inline-block !important;		width:600px !important; 	}	.responsive-mobile-banner-top-parent {		display:none;	}	.responsive-mobile-banner-top {		display:none;	}	#fun_g_right {		display:block !important;	}}@media (min-width:611px) and (max-width:759px){	body {		font-size:14pt;	}	#right {		display:none;	}	#left {		display:none;	}	.mobile_top_banner {  		height:345px; 		padding:10px;		overflow: hidden;	}	.responsive-mobile-big {		width:600px;		height:250px;		display:block !important;		float:left;	}	.responsive-handheld-lower {		display:block !important;		width:600px;		max-width:98%;	}	#lower {		display:block;				text-align:center;		clear:both;		margin:auto;		position:relative;	}	.responsive-mobile-big-1 {		display:block !important;	}	.responsive-mobile-big-2 {		display:block !important;	}	.responsive-mobile-banner {		display:block !important;	}	.responsive-mobile-banner-top-parent {		display:inline-block !important;	}	.responsive-mobile-banner-top {		display:block !important;	}	.create_intro {		font-size:10pt;	}	#lower_buttons {		display:none;	}	#options {		display:none;	}	#options_mobile {		display:block;	}}@media (max-width:610px) {	body {		font-size:14pt;	}	.mobile_top_banner {  		min-height:345px;		padding:10px;	}	#outer {		min-width:auto;	}	#main {		width:100%;	}	#menu-main {		width:100%;	margin:0 ;	padding:0px;	}	#right {		display:none;	}	#left {		display:none;	}	.inner {		padding:6px;	}	h1#retro  {		color:#000000;		font-size: 20pt !important;		font-family: 'McLaren', Verdana, sans-serif;		letter-spacing: 5px;	}	 h2#retro  {		color:#000000;		font-size: 16pt !important;		font-family: 'McLaren', Verdana, sans-serif;		letter-spacing: 4px;	}	.profile_page h1#retro, .profile_page h2#retro {		font-size: 18pt !important;	}	#titleImg {		width:90%;	}	#tagLine {		margin:0;		padding:0 6px 6px 6px;		font-size:10pt;	}	.desc {		font-size:12pt;		font-weight:normal;	}	.sn_icons {		display:none;	}	#lower {		display:block;				margin:auto;		text-align:center;		overflow:auto;	}	.responsive-handheld-lower {		display:block !important;		height:250px;	}	.responsive-mobile-big-1 {		display:block !important;	}	.responsive-mobile-banner-top-parent {		display:inline-block !important;	}	.responsive-mobile-banner-top {		display:block !important;	}	.responsive-mobile-banner {		display:block !important;	}	#lower_buttons {		display:none;	}	#options {		display:none;	}	#options_mobile {		display:block;	}	.social_toolbar div {		width:22px;	}	.social_label {		display:none;	}	.homepage_intro {		display:none;	}	.create_intro {		display:none;	}	.top_note {		display:none;	}	.card_game_image_medium {		display:none;	}	.card_game_image_small {		display:block;	}	.about_aardgo {		font-size:11pt;	}	.disclaimer {		font-size:9pt;	}	.family_warning {		margin:2px auto;	}	#header {		height:36px;		margin:0 0 2px 0;		position:relative;	}	#header .brand_text {		display:none;	}	#search_form {				padding:0;		font-size:10pt;			}	#search_form input {		font-size:10pt;		height:14pt; width:150px;	}	#search_form button {		font-size:8pt;		height:26px;		width:32px; 		position:relative;		top:-2px;	}}@media (max-width:310px) {	body {		font-size:12pt;	}	.mobile_top_banner {		height:345px;		padding:10px;	}	h1#retro, h2#retro  {		font-size: 15pt !important;		letter-spacing: 6px;	}	.profile_page h1#retro, .profile_page h2#retro {		font-size: 13pt !important;	}	#lower_buttons {		display:none;	}	#options {		display:none;	}	#options_mobile { 		display:block;	}	.social_toolbar {	  display:none;  }	#header .icon {		display:none;	}}@media (min-width:320px) and (max-width:420px) and (orientation:portrait){	.responsive-mobile-banner-top-parent {		display:none !important;	}	.responsive-mobile-banner-top {		display:none !important;	}} @media only screen and (max-width: 1249px) and (min-width:280px) { 	.adwrap_middle { 		min-height:250px 	} }#right {position:sticky;top:0px;z-index:100;}#left {position:sticky;top:0px;z-index:100;}.output_h1 {font-size:20pt;font-family:Century Gothic, Verdana;font-weight:bold;text-align:left;}.output_h2 {font-size:14pt;text-align:left;}.cover {	float:left;	margin: 0px 10px 10px 0px;	width:200px;}.blurb, .praise_div {text-align:left;max-width:600px;margin:auto;}.praise {margin:8px auto 0px auto;}.praise_who {font-style:italic;padding:0px 0px 0px 20px;}.ideas_h3 {text-transform:uppercase !important;text-decoration:underline;}.random_story {padding:10px;margin:10px auto;display:inline-block;max-width:500px;background:rgba(255,255,255,0.5); border-radius:10pt; -moz-box-shadow: 0 0 5px #364275;-webkit-box-shadow: 0 0 5px #364275;box-shadow: 0px 0px 5px #364275;}.meme {max-width:500px;width:98%;height:250px;margin:10px auto;font-family:Raleway, Verdana, sans-serif;font-size:13pt;}#copied_label {display:none;font-weight:bold;background:#ffffff;text-align:center;padding:8px;max-width:400px;margin:6px 0;color:#ffffff;background-color:purple;}.plot_so_far {padding:2px 10px;margin:4px 0;background:#ffffff;display:inline-block;line-height:1.5em;text-align:left;}.potential_line {padding:2px 10px;margin:4px 0;background:#ffffff;display:inline-block;}#loading_overlay {display:none;margin: auto;max-width:300px;max-height:230px;position: fixed;top: 0px; left: 0px;bottom: 50px; right: 0px;background-color: #fff;color: #000;text-align:center;z-index:5;width:90%;height:50%;padding:20px;border-radius:20px;}.loader {   border: 16px solid #f3f3f3;   border-top: 16px solid #3498db;   border-radius: 50%;   width: 120px;   height: 120px;   animation: spin 2s linear infinite;   margin:auto;}@keyframes spin {   0% { transform: rotate(0deg); }   100% { transform: rotate(360deg); }}@media (max-width:610px) {.cover {	margin: 4px auto 2px auto;	width:30%;	max-width:200px;	padding: 0 4px 2px 0;	float:none;}.output_h1 {	font-size:14pt;}.profile ul {	margin: 2px 0px 2px 40px;}.profile li {	margin-left:40px;}}#cookie_notice {  flex: 0 0 auto;  vertical-align:center;  text-align:center;  background-color:#2AC5D6;  z-index:1;  padding:16px 2px 16px 2px;  color:#000000;  font-size:14pt;}#cookie_notice a {text-decoration:none;color:#ffffff;}#cookie_hide, #cookie_show{cursor: pointer;}#cookie_accept {font-size:1.5em;padding:5px 0;}#cookie_accept_personalised {font-size:1.5em;}#cookie_accept_non_personalised {font-size:1em;}@media (max-width:480px), (max-height:480px)  {#cookie_notice {  font-size:10pt;}}@media (min-width:320px) and (max-width:983px)  and (orientation: portrait){#cookie_notice {		padding-bottom:100px;}}</style>		<meta name="description" content="Obfus Curr looked at the peculiar knife in his hands and felt afraid. He walked over to the window and reflected on his creepy surroundings. He had always loved picturesque Falmouth with its..." />		<meta property="og:description" content="By Jim.... Obfus Curr looked at the peculiar knife in his hands and felt afraid. He walked over to the window and reflected on his creepy surroundings. He had always loved picturesque Falmouth with its..."/>		<meta property="fb:admins" content="36804518" />		<meta property="og:image:secure_url" content="https://www.plot-generator.org.uk/images/user/rp1znbk.png"/> 		<meta name="ROBOTS" content="NOINDEX,FOLLOW" />		<meta name="google-site-verification" content="MksUQtjTddqUJ2yQtDwcSe6fmbYDkhqpQPrJSAt5DQU" />		<script type="text/javascript">		function captureForm(){			var loading_overlay=document.getElementById('loading_overlay');			if(loading_overlay){				loading_overlay.style.display = 'block';			}		}		</script>		<script src='https://www.google.com/recaptcha/api.js'></script><script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script><script src="//biddr.brealtime.com/43539534-1646.js" type="text/javascript"></script>			<script>			  var googletag = googletag || {};			  googletag.cmd = googletag.cmd || [];			</script>			 			<script>			  googletag.cmd.push(function() {			var mappingleftside = googletag.sizeMapping().                			               addSize([970, 1], [160, 600]).            			   addSize([0, 0], []).			               build();			var mappingrightside = googletag.sizeMapping().                			               addSize([760, 1], [160, 600]).            			   addSize([0, 0], []).			               build();			var mappingbottombanner = googletag.sizeMapping().                			               addSize([728, 1], [728, 90]).            			   addSize([0, 0], [300, 250]).			               build();			var mappingtopbanner = googletag.sizeMapping().                			               addSize([760, 1], []).            						   			 addSize([0, 0], [300, 250]).			               build();			googletag.defineSlot('/2507246,22432670771/GNT//plot-generator//bottombanner', [[300, 250], [728, 90]], 'div-gpt-ad-1541506095790-0').defineSizeMapping(mappingbottombanner).addService(googletag.pubads());			googletag.defineSlot('/2507246,22432670771/GNT//plot-generator//topbanner', [320, 100], 'div-gpt-ad-1541506193777-0').defineSizeMapping(mappingtopbanner).addService(googletag.pubads());			    googletag.defineSlot('/2507246,22432670771/GNT//plot-generator//leftside', [160, 600], 'div-gpt-ad-1541506312911-0').defineSizeMapping(mappingleftside).addService(googletag.pubads());			    googletag.defineSlot('/2507246,22432670771/GNT//plot-generator//rightside', [160, 600], 'div-gpt-ad-1541506445417-0').defineSizeMapping(mappingrightside).addService(googletag.pubads());googletag.defineSlot('/2507246,22432670771/GNT//plot-generator//misc//1x1//1', [1, 1], 'div-gpt-ad-1573132533875-0').addService(googletag.pubads());			    	googletag.pubads().disableInitialLoad();			    			    googletag.pubads().enableSingleRequest();			    			    googletag.enableServices();			    			  });			</script>			<script type="text/javascript" src="https://tag.oko.net/GNT-382.js" async="true"></script>
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+        <script>
+        (function() {
+        var host = window.location.hostname;
+        var element = document.createElement('script');
+        var firstScript = document.getElementsByTagName('script')[0];
+        var url = 'https://quantcast.mgr.consensu.org'
+        .concat('/choice/', 'tFtPSgSMcAKKV', '/', host, '/choice.js')
+        var uspTries = 0;
+        var uspTriesLimit = 3;
+        element.async = true;
+        element.type = 'text/javascript';
+        element.src = url;
+
+        firstScript.parentNode.insertBefore(element, firstScript);
+
+        function makeStub() {
+        var TCF_LOCATOR_NAME = '__tcfapiLocator';
+        var queue = [];
+        var win = window;
+        var cmpFrame;
+
+        function addFrame() {
+        var doc = win.document;
+        var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+        if (!otherCMP) {
+        if (doc.body) {
+        var iframe = doc.createElement('iframe');
+
+        iframe.style.cssText = 'display:none';
+        iframe.name = TCF_LOCATOR_NAME;
+        doc.body.appendChild(iframe);
+        } else {
+        setTimeout(addFrame, 5);
+        }
+        }
+        return !otherCMP;
+        }
+
+        function tcfAPIHandler() {
+        var gdprApplies;
+        var args = arguments;
+
+        if (!args.length) {
+        return queue;
+        } else if (args[0] === 'setGdprApplies') {
+        if (
+        args.length > 3 &&
+        args[2] === 2 &&
+        typeof args[3] === 'boolean'
+        ) {
+        gdprApplies = args[3];
+        if (typeof args[2] === 'function') {
+        args[2]('set', true);
+        }
+        }
+        } else if (args[0] === 'ping') {
+        var retr = {
+        gdprApplies: gdprApplies,
+        cmpLoaded: false,
+        cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+        args[2](retr);
+        }
+        } else {
+        queue.push(args);
+        }
+        }
+
+        function postMessageEventHandler(event) {
+        var msgIsString = typeof event.data === 'string';
+        var json = {};
+
+        try {
+        if (msgIsString) {
+        json = JSON.parse(event.data);
+        } else {
+        json = event.data;
+        }
+        } catch (ignore) {}
+
+        var payload = json.__tcfapiCall;
+
+        if (payload) {
+        window.__tcfapi(
+        payload.command,
+        payload.version,
+        function(retValue, success) {
+        var returnMsg = {
+        __tcfapiReturn: {
+        returnValue: retValue,
+        success: success,
+        callId: payload.callId
+        }
+        };
+        if (msgIsString) {
+        returnMsg = JSON.stringify(returnMsg);
+        }
+        event.source.postMessage(returnMsg, '*');
+        },
+        payload.parameter
+        );
+        }
+        }
+
+        while (win) {
+        try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+        cmpFrame = win;
+        break;
+        }
+        } catch (ignore) {}
+
+        if (win === window.top) {
+        break;
+        }
+        win = win.parent;
+        }
+        if (!cmpFrame) {
+        addFrame();
+        win.__tcfapi = tcfAPIHandler;
+        win.addEventListener('message', postMessageEventHandler, false);
+        }
+        };
+
+        makeStub();
+
+        var uspStubFunction = function() {
+        var arg = arguments;
+        if (typeof window.__uspapi !== uspStubFunction) {
+        setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+        window.__uspapi.apply(window.__uspapi, arg);
+        }
+        }, 500);
+        }
+        };
+
+        var checkIfUspIsReady = function() {
+        uspTries++;
+        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+        console.warn('USP is not accessible');
+        } else {
+        clearInterval(uspInterval);
+        }
+        };
+
+        if (typeof window.__uspapi === 'undefined') {
+        window.__uspapi = uspStubFunction;
+        var uspInterval = setInterval(checkIfUspIsReady, 6000);
+        }
+        })();
+        </script>
+ <script>
+       //TCF API listener code - add after TCF 2.0 compatible CMP initialization code has executed
+        window.__tcfapi('addEventListener', 2, function(tcData, listenerSuccess) {
+            if (listenerSuccess) {
+            // check the eventstatus
+                if (tcData.eventStatus === 'useractioncomplete' ||
+                tcData.eventStatus === 'tcloaded') {
+
+                if(!tcData.gdprApplies){
+                    //GDPR does not apply to this user so start GAM auction
+                    googletag.cmd.push(function () {
+                        googletag.pubads().refresh();
+                    });
+                    return;
+                }
+
+                // Deal with parsing tcData for IAB Vendor consents
+                //Deal with personalized/non-personalized Google ads based on this document: https://support.google.com/admanager/answer/9805023?hl=en
+                    if ((tcData.vendor.consents[755] || tcData.vendor.legitimateInterests[755])
+                    && (tcData.purpose.consents[1] && tcData.purpose.consents[3] && tcData.purpose.consents[4]
+                    && tcData.purpose.legitimateInterests[2] &&  tcData.purpose.legitimateInterests[7] && tcData.purpose.legitimateInterests[9] &&  tcData.purpose.legitimateInterests[10])) {
+
+                        //consent signals sufficient for personalized ads
+                        //set personalized ads and then run the GAM auction
+                        googletag.cmd.push(function () {
+                            googletag.pubads().setRequestNonPersonalizedAds(0);
+                            googletag.pubads().refresh();
+                        });
+                    } else if((tcData.vendor.consents[755] || tcData.vendor.legitimateInterests[755])
+                    && (tcData.purpose.consents[1]
+                    && tcData.purpose.legitimateInterests[2] &&  tcData.purpose.legitimateInterests[7] && tcData.purpose.legitimateInterests[9] &&  tcData.purpose.legitimateInterests[10])) {
+
+                        //consent signals NOT sufficient for personalized ads
+                        //set non-personalized ads and then run the GAM auction
+                        googletag.cmd.push(function () {
+                            googletag.pubads().setRequestNonPersonalizedAds(1);
+                            googletag.pubads().refresh();
+                        });
+                    }
+                }
+            }
+        });
+        </script><!--shared-->	<script>	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');	  ga('create', 'UA-48410546-2', 'auto');	  ga('create', 'UA-48410546-8', 'auto', {'name': 'overall', 'allowLinker': true});	  ga('overall.require', 'linker');	  ga('overall.linker:autoLink', ['https://www.name-generator.org.uk', 'https://www.character-generator.org.uk', 'https://www.dating-profile-generator.org.uk', 'https://www.song-lyrics-generator.org.uk', 'https://www.letter-generator.org.uk', 'https://www.poem-generator.org.uk'] );	  ga('send', 'pageview');	  ga('overall.send', 'pageview');	</script>				<script>				var trackOutboundLink = function(url) {				   ga('send', 'event', 'outbound', 'click', url, {				     'transport': 'beacon',				     'hitCallback': function(){document.location = url;}				   });						ga('overall.send', 'event', 'outbound', 'click', url, {				     'transport': 'beacon',				     'hitCallback': function(){document.location = url;}				   });				}				</script>	</head>	<body>	<div class="page">  <div class="page-content"> <script>		function custom_share(url){								var w = 400;				var h = 500;							var y = window.top.outerHeight / 2 + window.top.screenY - ( h / 2);		    var x = window.top.outerWidth / 2 + window.top.screenX - ( w / 2);		    window.open(url,'sharer','toolbar=0,location=no, directories=no, status=0, menubar=no, width='+w+', height='+h+', top='+y+', left='+x);		    return true;		}		</script><div id="header"><div class="brand"><img src="/images/icons/aardgo_32.png" class="logo" alt="Aardgo logo">			<span class="brand_text">Masterpiece Generator</span></div>						<form action="/search/" id="search_form">										<input name="q" type="text" placeholder="search" autocapitalize="none" />					<button type="submit" class="btn btn-success button">				    <i class="fa fa-search fa-lg"></i>					</button>					<a href="https://masterpiece-generator.org.uk/a-z/"><i class="fa fa-sort-alpha-asc icon"></i></a>					<a href="https://masterpiece-generator.org.uk/overview/"><i class="fa fa-list icon"></i></a>				</form></div>		<div id="outer" class="display_page plot_page">		<div id="right"><div class="skyscraper"><!-- /2507246/GNT//plot-generator//rightside -->
+		<div id='div-gpt-ad-1541506445417-0'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1541506445417-0'); });
+		</script>
+		</div></div><h4>Newest Generators</h4>
+	<ul class="left_list"><li>1. <a href="https://www.random-generator.org.uk/covid-19/">Coronavirus Activity</a></li><li>2. <a href="https://www.plot-generator.org.uk/headlines/">Headline </a></li><li>3. <a href="https://www.song-lyrics-generator.org.uk/rhyming/">Rhyming Song</a></li><li>4. <a href="https://www.name-generator.org.uk/pirate/">Pirate Name</a></li><li>5. <a href="https://www.name-generator.org.uk/male/">Male Name</a></li><li>6. <a href="https://www.name-generator.org.uk/female/">Female Name</a></li><li>7. <a href="https://www.song-lyrics-generator.org.uk/drake/">Drake Lyrics</a></li><li>8. <a href="https://www.character-generator.org.uk/cause-of-death/">Cause of Death</a></li><li>9. <a href="https://www.name-generator.org.uk/twin/">Twin</a></li><li>10. <a href="https://www.plot-generator.org.uk/domestic-noir/">Domestic Noir Plot</a></li></ul>					<br/><br/><br/><br/></div>		<div id="left"><div class="skyscraper"><!-- /2507246/GNT//plot-generator//leftside -->
+		<div id='div-gpt-ad-1541506312911-0'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1541506312911-0'); });
+		</script>
+		</div></div><h4>Top 10 Generators</h4>
+	<ul class="left_list"><li>1. <a href="https://www.name-generator.org.uk/character/">Character Name</a></li><li>2. <a href="https://www.name-generator.org.uk/rapper/">Rapper Name</a></li><li>3. <a href="https://www.name-generator.org.uk/quick/">Quick Name</a></li><li>4. <a href="https://www.name-generator.org.uk/nickname/">Nickname</a></li><li>5. <a href="https://www.song-lyrics-generator.org.uk/rap/">Rap Lyrics</a></li><li>6. <a href="https://www.name-generator.org.uk/band-name/">Band Name</a></li><li>7. <a href="https://www.name-generator.org.uk/username/">Username</a></li><li>8. <a href="https://www.name-generator.org.uk/fantasy/">Fantasy Name</a></li><li>9. <a href="https://www.plot-generator.org.uk/story/">Story</a></li><li>10. <a href="https://www.song-lyrics-generator.org.uk/create.php?song=14">Freestyle Song Lyrics</a></li></ul><br/><br/><br/><br/></div>							<div id="main"> 				<a href="/"><h2 id="retro">Plot Generator</h2></a>				<div class="inner"><div class="mobile_top_banner"><!-- /2507246/GNT//plot-generator//topbanner -->
+		<div id='div-gpt-ad-1541506193777-0'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1541506193777-0'); });
+		</script>
+		</div></div><div class="top_note"><span class="not_saved">Not saved</span>&nbsp; Jump to <a href="#save_options"><b>options</b></a> for sharing, commenting and voting.</div><img src="https://www.plot-generator.org.uk/images/user/rp1znbk.png" class="cover" alt="Hungry Obfus Curr" /><h1 class="output_h1">
+									Hungry Obfus Curr<br/>
+								</h1><h2 class="output_h2">      A Short Story<br/>
+									by Jim</h2>
+
+<div class="blurb"><p>Obfus Curr looked at the peculiar knife in his hands and felt afraid.</p>
+	<p>He walked over to the window and reflected on his creepy surroundings. He had always loved picturesque Falmouth with its disturbed, dizzy ditches. It was a place that encouraged his tendency to feel afraid.</p>
+	<p>Then he saw something in the distance, or rather some<i>one</i>. It was the  figure of Ambien Cain. Ambien was a loving elephant with wide warts and spiky eyelashes.</p>
+	<p>Obfus gulped. He glanced at his own reflection. He was a hungry, clever, wine drinker with handsome warts and brown eyelashes. His friends saw him as a wide-eyed, wild wally. Once, he had even revived a dying, injured bird.</p><p>But not even a hungry person who had once revived a dying, injured bird, was prepared for what Ambien had in store today. </p><p>The rain hammered like bouncing humming birds, making Obfus ambivalent. </p>
+	<p>As Obfus stepped outside and Ambien came closer, he could see the purring smile on his face.</p>
+	<p>"I am here because I want justice," Ambien bellowed, in a sweet tone. He slammed his fist against Obfus's chest, with the force of 5874 blue bottles. "I frigging love you, Obfus Curr."</p>
+	<p>Obfus looked back, even more ambivalent and still fingering the peculiar knife. "Ambien, I don&#39;t have the money," he replied.</p>
+	<p>They looked at each other with active feelings, like two motionless, magnificent maggots laughing at a very considerate bar mitzvah, which had classical music playing in the background and two caring uncles thinking to the beat.</p>
+	<p>Obfus studied Ambien's  wide warts and spiky eyelashes. Eventually, he took a deep breath. "I'm sorry, but I can't give you justice," he explained, in pitying tones.</p>
+		<p>Ambien looked irritable, his body raw like a mighty, modern map.</p>
+
+	<p>Obfus could actually hear Ambien's body shatter into 3833 pieces. Then the loving elephant hurried away into the distance.</p><p>Not even a glass of wine would calm Obfus's nerves tonight.</p>
+	THE END
+	<br/><br/>
+	</div><a name="save_options"></a><i>For privacy reasons, your creation will be removed from the web at 8:30am BST and later deleted from our server, unless you choose to publish it.</i><div class="choices">					<input type="button" id="publish" value="Publish" onclick="location.href='/save.php?i=rp1znbk'" class="button"  /><br/>or 					<input type="button" id="discard" value="Discard" onclick="location.href='/?delete=rp1znbk'" class="button"  />				</div>					(Published creations are available to anybody with the link.)<br/><br/><div id="comment"><h3>Voting and comments are only available on published work.</h3></div><div class="praise_div">		<h4>Auto Praise for Hungry Obfus Curr</h4>
+<div class="praise">"I feel like I know Obfus Curr. In a way, it feels as though I've always known him."</div>
+<div class="praise_who"> - The Daily Tale</div>
+
+<div class="praise">"About as enjoyable as being hailed on whilst taking in washing that has been targeted by seagulls with the squits."</div> <div class="praise_who"> - Enid Kibbler</div>
+
+<div class="praise">"Saying the rain hammered like bouncing humming birds is just the kind of literary device that makes this brilliant."</div>
+<div class="praise_who"> - Hit the Spoof</div>
+<div class="praise">"I could do better."</div>
+<div class="praise_who"> - Zob Gloop</div>		</div></div></div><br/><input type="button" onclick="location.href='/review/?type=6'" value="Review This Generator" class="button" /><br/><br/><br/>						<input type="button" id="new" value="Create New" onclick="location.href='/'" class="button"  /><br/><br/></div>						<h4>More From Plot Generator</h4><div class="lowerLinks"><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/story/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/short-story.jpg" alt="Short Story" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/story/">Short Story</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/movie-script/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/movie-script.jpg" alt="Movie Script" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/movie-script/">Movie Script</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/fairytale/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/fairytale.jpg" alt="Fairytale" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/fairytale/">Fairytale</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/story-ideas/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/story-ideas.jpg" alt="Story Ideas" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/story-ideas/">Story Ideas</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/opening-line/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/opening-line.jpg" alt="Opening Line" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/opening-line/">Opening Line</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/twist/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/twist.jpg" alt="Twist" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/twist/">Twist</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/cure-writers-block/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/writer's-block-cure.jpg" alt="Writer's Block Cure" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/cure-writers-block/">Writer's Block Cure</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/meme/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/meme.jpg" alt="Meme" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/meme/">Meme</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/drabble/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/drabble.jpg" alt="Drabble" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/drabble/">Drabble</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/headlines/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/headlines.jpg" alt="Headlines" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/headlines/">Headlines</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=8"><img src="https://www.plot-generator.org.uk/local/images/thumbs/freestyle.jpg" alt="Freestyle" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=8">Freestyle</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/line-by-line/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/line-by-line.jpg" alt="Line by Line" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/line-by-line/">Line by Line</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=1"><img src="https://www.plot-generator.org.uk/local/images/thumbs/romance.jpg" alt="Romance" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=1">Romance</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=9"><img src="https://www.plot-generator.org.uk/local/images/thumbs/fantasy.jpg" alt="Fantasy" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=9">Fantasy</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=12"><img src="https://www.plot-generator.org.uk/local/images/thumbs/paranormal-romance.jpg" alt="Paranormal Romance" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=12">Paranormal Romance</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=2"><img src="https://www.plot-generator.org.uk/local/images/thumbs/crime.jpg" alt="Crime" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=2">Crime</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/domestic-noir/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/domestic-noir.jpg" alt="Domestic Noir" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/domestic-noir/">Domestic Noir</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=14"><img src="https://www.plot-generator.org.uk/local/images/thumbs/horror.jpg" alt="Horror" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=14">Horror</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=5"><img src="https://www.plot-generator.org.uk/local/images/thumbs/mystery.jpg" alt="Mystery" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=5">Mystery</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=10"><img src="https://www.plot-generator.org.uk/local/images/thumbs/science-fiction.jpg" alt="Science Fiction" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=10">Science Fiction</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=17"><img src="https://www.plot-generator.org.uk/local/images/thumbs/dystopian.jpg" alt="Dystopian" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=17">Dystopian</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=3"><img src="https://www.plot-generator.org.uk/local/images/thumbs/vampire.jpg" alt="Vampire" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=3">Vampire</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/bronte-sisters/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/bronte-sisters.jpg" alt="Bronte Sisters" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/bronte-sisters/">Bronte Sisters</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/create.php?type=11"><img src="https://www.plot-generator.org.uk/local/images/thumbs/summertime.jpg" alt="Summertime" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/create.php?type=11">Summertime</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.plot-generator.org.uk/smelly-trolls/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/smelly-trolls.jpg" alt="Smelly Trolls" /></a><br/>
+										<div><a href="https://www.plot-generator.org.uk/smelly-trolls/">Smelly Trolls</a></div>
+										</div><br/>Our Other Generators<br/><div class="also_thumb_container">
+										<a href="https://www.name-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/name-generator.jpg" alt="Name Generator" /></a><br/>
+										<div><a href="https://www.name-generator.org.uk">Name Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.character-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/character-generator.jpg" alt="Character Generator" /></a><br/>
+										<div><a href="https://www.character-generator.org.uk">Character Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.dating-profile-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/dating-profile-generator.jpg" alt="Dating Profile Generator" /></a><br/>
+										<div><a href="https://www.dating-profile-generator.org.uk">Dating Profile Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.song-lyrics-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/song-lyrics-generator.jpg" alt="Song Lyrics Generator" /></a><br/>
+										<div><a href="https://www.song-lyrics-generator.org.uk">Song Lyrics Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.letter-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/letter-generator.jpg" alt="Letter Generator" /></a><br/>
+										<div><a href="https://www.letter-generator.org.uk">Letter Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.poem-generator.org.uk"><img src="https://www.plot-generator.org.uk/local/images/thumbs/poem-generator.jpg" alt="Poem Generator" /></a><br/>
+										<div><a href="https://www.poem-generator.org.uk">Poem Generator</a></div>
+										</div><div class="also_thumb_container">
+										<a href="https://www.name-generator.org.uk/pen-name/"><img src="https://www.plot-generator.org.uk/local/images/thumbs/pen-name-generator.jpg" alt="Pen Name Generator" /></a><br/>
+										<div><a href="https://www.name-generator.org.uk/pen-name/">Pen Name Generator</a></div>
+										</div>
+					</div>									<br/><br/><div class="adwrap"><!-- /2507246/GNT//plot-generator//bottombanner -->
+		<div id='div-gpt-ad-1541506095790-0'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1541506095790-0'); });
+		</script>
+		</div></div><br style="clear:both" />	</div>	<br style="clear:both" />	<div id="follow_bar">		<div class="facebook_button"><a href="https://www.facebook.com/aardgo/" class="fa fa-facebook" ></a></div>		<div class="twitter_button"><a href="https://twitter.com/aardgo" class="fa fa-twitter" ></a></div>	</div>				<div class="disclaimer">					<div class="inner">						Note: This plot was generated using input from users and does not necessarily reflect the views of Plot Generator and its programmers.<br/><br/>	Contact: writer@plot-generator.org.uk |	<a href="https://masterpiece-generator.org.uk/data-protection-and-privacy/" style="color:#ffffff">Data and Privacy Information</a>  | <a class="change-consent" onclick="window.__cmp('displayConsentUi');"  style="color:#ffffff">Change Consent</a></div>					</div></div><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>	<script>	  WebFont.load({	    google: {	      families: ['McLaren', 'Raleway', 'Assistant']	    }	  });	</script>      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- /2507246/GNT//plot-generator//misc//1x1//1 --><div id='div-gpt-ad-1573132533875-0' style='width: 1px; height: 1px;'>  <script>    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1573132533875-0'); });  </script></div>	</body></html>
